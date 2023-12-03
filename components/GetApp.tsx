@@ -10,7 +10,7 @@ const GetApp = () => {
 					<h2 className=' bold-40 lg:bold-64 xl:max-w-[320px] '>
 						Get for Free now!
 					</h2>
-					<p className='regular-14 text-gray-10'>
+					<p className='regular-14 text-gray-10 my-10'>
 						Avilable on IOS and Android
 					</p>
 					<div className='flex flex-col w-full whitespace-nowrap gap-3 xl:flex-row'>
