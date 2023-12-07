@@ -1,7 +1,4 @@
-console.log('Hello Node js')
+import chalk from 'chalk'
+import text from './data'
 
-const log = () => {
-	return console.log('hello node')
-}
-
-log()
+console.log(chalk.yellow(text))
