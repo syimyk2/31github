@@ -28,3 +28,12 @@ var createCounter2 = function(init) {
  * counter.reset(); // 5
  * counter.decrement(); // 4
  */
+
+//3
+var map = function(arr, fn) {
+    const transformedArr = [];
+    arr.forEach((element, index) => {
+      transformedArr[index] = fn(element, index);
+    });
+    return transformedArr;
+  };
