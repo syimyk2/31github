@@ -37,3 +37,10 @@ var map = function(arr, fn) {
     });
     return transformedArr;
   };
+
+
+  //4 
+  
+  var argumentsLength = function(...args) {
+    return args.length
+};
