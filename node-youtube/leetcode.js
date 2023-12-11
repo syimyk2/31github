@@ -74,3 +74,16 @@ function sum (...args){
 function sum (a,b,...args){
     console.log(a,b,args) // 1 2 [3,4,5]
 }
+
+
+//5
+
+var licenseKeyFormatting = function(s, k) {
+    s = s.replaceAll('-', '').toUpperCase().split('');
+    
+    for(let i = s.length - k; i > 0; i -= k) {
+        s[i] = `-${s[i]}`
+    }
+    
+    return s.join('');
+};
